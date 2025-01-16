@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  hi_ya:
+    container_name: hi_ya
+    image: ho_ho/hi_ya:latest
+    restart: unless_stopped
